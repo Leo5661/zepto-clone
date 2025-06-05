@@ -91,7 +91,7 @@ export default function DetailsScreen() {
           </View>
           {itemDetails && (
             <View style={styles.buttonContainer}>
-              <AddOrRemoveButton item={itemDetails} />
+              <AddOrRemoveButton item={itemDetails} title="Add to cart" />
             </View>
           )}
         </View>
