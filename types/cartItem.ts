@@ -1,6 +1,6 @@
-import { Item } from "./Item"
+import { Item } from "./Item";
 
 export type CartItem = {
-    item: Item
-    quantity: number
-} 
+  item: Item;
+  quantity: number;
+};
